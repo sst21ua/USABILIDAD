@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Mapa del Cuerpo Humano | Enciclopedia Médica</title>
+        <style>
+            .mapa-container {
+                text-align: center;
+                margin: 20px;
+            }
+            .mapa-descripcion {
+                margin: 15px 0;
+                color: #333;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Sistema del Cuerpo Humano</h1>
+        </header>
+
+        <main>
+
+            <section>
+
+                <h2>Explora los diferentes sistemas del cuerpo</h2>
+                <p class="mapa-descripcion">Haz click en las diferentes áreas del cuerpo para aprender sobre enfermedades relacionadas:</p>
+                
+                <div class="mapa-container">
+                    <map name="cuerpoHumano">
+                        <!-- Pecho: Leucemia -->
+                        <area shape="circle" coords="38,45,18" href="../L/leucemia.html" alt="Sistema circulatorio - Leucemia" title="Sistema circulatorio - Leucemia">
+                        <!-- Abdomen superior: Cirrosis -->
+                        <area shape="poly" coords="35,70,45,65,60,65,70,70,60,80,45,80" href="../C/cirrosis.html" alt="Hígado - Cirrosis" title="Hígado - Cirrosis">
+                        <!-- Abdomen inferior: Colitis -->
+                        <area shape="rect" coords="30,90,75,110" href="../C/colitis.html" alt="Intestinos - Colitis" title="Intestinos - Colitis">
+                        <!-- Abdomen central: Cáncer -->
+                        <area shape="rect" coords="40,65,65,85" href="../C/cancer.html" alt="Sistema digestivo - Cáncer" title="Sistema digestivo - Cáncer">
+                        <!-- Zona pélvica: Sífilis -->
+                        <area shape="circle" coords="53,130,15" href="../S/Sifilis.html" alt="Sistema reproductor - Sífilis" title="Sistema reproductor - Sífilis">
+                        <!-- Piernas: Dengue -->
+                        <area shape="poly" coords="40,150,45,200,60,200,65,150" href="../D/dengue.html" alt="Extremidades - Dengue" title="Extremidades - Dengue">
+                    </map>
+                    <img usemap="#cuerpoHumano" src="../img/mapaHombre.png" alt="Diagrama del cuerpo humano mostrando diferentes sistemas y órganos" width="153" height="230">
+                </div>
+
+                <div class="mapa-descripcion">
+                    <h3>Áreas interactivas:</h3>
+                    <ul>
+                        <li><strong>Pecho:</strong> Sistema circulatorio - Leucemia</li>
+                        <li><strong>Abdomen superior:</strong> Hígado - Cirrosis</li>
+                        <li><strong>Abdomen inferior:</strong> Intestinos - Colitis</li>
+                        <li><strong>Abdomen central:</strong> Sistema digestivo - Cáncer</li>
+                        <li><strong>Zona pélvica:</strong> Sistema reproductor - Sífilis</li>
+                        <li><strong>Piernas:</strong> Extremidades - Dengue</li>
+                    </ul>
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Enciclopedia Médica</p>
+        </footer>
+    </body>
+</html>
