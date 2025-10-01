@@ -1,0 +1,123 @@
+<!doctype HTML>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <title> Enciclopedia | Buscador</title>
+    </head>
+
+    <body>
+
+        <header>
+            
+            <a href="../index.html">
+                <img src="../img/logo.jpg" width="100" alt="Logo de la Enciclopedia Médica">
+            </a>
+
+            <h1>Buscador de Artículos</h1>
+            
+            <nav>
+
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="buscador.html">Buscador</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <hr>
+
+        <main>
+            
+            <h2>Buscar artículos de la enciclopedia</h2>
+            <p>Complete al menos el campo de descripción. Puede combinar varios campos para refinar su búsqueda.</p>
+
+            <form action="busqueda/busqueda.html" method="post">
+
+                <p>
+                    <label for="descripcion">Descripción: *</label>
+                    <input type="text" id="descripcion" name="descripcion" required>
+                </p>
+                
+                <p>
+                    <label for="causas">Causas:</label>
+                    <input type="text" id="causas" name="causas">
+                </p>
+                
+                <p>
+                    <label for="sintomas">Síntomas:</label>
+                    <select id="sintomas" name="sintomas" multiple size="5">
+                        <option value="fiebre">Fiebre</option>
+                        <option value="vomito">Vómito</option>
+                        <option value="diarrea">Diarrea</option>
+                        <option value="dolor_muscular">Dolor muscular</option>
+                        <option value="dolor_cabeza">Dolor de cabeza</option>
+                        <option value="fatiga">Fatiga</option>
+                        <option value="tos">Tos</option>
+                        <option value="dificultad_respirar">Dificultad para respirar</option>
+                        <option value="mareos">Mareos</option>
+                        <option value="perdida_peso">Pérdida de peso</option>
+                    </select>
+                    <small>(Mantenga presionada la tecla Ctrl para seleccionar múltiples síntomas)</small>
+                </p>
+
+                <p>
+                    <label for="pruebas">Pruebas y exámenes:</label>
+                    <select id="pruebas" name="pruebas" multiple size="5">
+                        <option value="analisis_sangre">Análisis de sangre</option>
+                        <option value="ecografia">Ecografía</option>
+                        <option value="radiografia">Radiografía</option>
+                        <option value="tomografia">Tomografía</option>
+                        <option value="ultrasonido">Ultrasonido</option>
+                        <option value="resonancia_magnetica">Resonancia magnética</option>
+                        <option value="electrocardiograma">Electrocardiograma</option>
+                        <option value="endoscopia">Endoscopia</option>
+                        <option value="biopsia">Biopsia</option>
+                        <option value="pruebas_alergia">Pruebas de alergia</option>
+                    </select>
+                    <small>(Mantenga presionada la tecla Ctrl para seleccionar múltiples pruebas)</small>
+                </p>
+
+                <p>
+                    <label for="tratamiento">Tratamiento:</label>
+                    <input type="text" id="tratamiento" name="tratamiento">
+                </p>
+                
+                <fieldset>
+                    <legend>expectativas:</legend> 
+
+                    <p>
+                    
+                        <input type="radio" id="expectativas_negativas" name="expectativas" value="negativas">
+                        <label for="expectativas_negativas">Negativas</label>
+                        
+                        <input type="radio" id="expectativas_sin_definir" name="expectativas" value="sin_definir">
+                        <label for="expectativas_sin_definir">Sin definir</label>
+                        
+                        <input type="radio" id="expectativas_positivas" name="expectativas" value="positivas">
+                        <label for="expectativas_positivas">Positivas</label>
+                    
+                    </p>
+
+                </fieldset>
+                
+                <p>
+                   
+                    <input type="submit" value="Buscar">
+                    <input type="reset" value="Limpiar formulario">
+                
+                </p>
+
+            </form>
+        </main>
+
+        <hr>
+        
+        <footer>
+            <p>&copy; 2025 Enciclopedia Médica. Creado por Saül Soriano Tortajada y Gonzalo Rodríguez Gallardo</p>
+        </footer>
+
+    </body>
+</html>

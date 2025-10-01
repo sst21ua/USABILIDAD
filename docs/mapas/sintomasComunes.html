@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Síntomas Médicos | Enciclopedia Médica</title>
+    <style>
+        .mapa-container {
+            text-align: center;
+            margin: 20px;
+        }
+        .sintomas-lista {
+            margin: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Síntomas Médicos Comunes</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Identifica y comprende los síntomas</h2>
+            <p>Selecciona cada síntoma en la imagen para obtener más información:</p>
+            
+            <div class="mapa-container">
+                <map name="sintomasMedicos">
+                    <!-- 2 RECTÁNGULOS -->
+                    <area shape="rect" coords="50,120,150,180" href="S/Salmonella.html" alt="Fiebre - Infecciones como Salmonella" title="Fiebre">
+                    <area shape="rect" coords="200,100,300,160" href="D/dengue.html" alt="Dolor muscular - Enfermedades virales como Dengue" title="Dolor muscular">
+                    
+                    <!-- 2 CÍRCULOS -->
+                    <area shape="circle" coords="400,140,30" href="L/lepra.html" alt="Lesiones en piel - Enfermedades como Lepra" title="Lesiones en piel">
+                    <area shape="circle" coords="350,200,25" href="C/cancer.html" alt="Fatiga - Síntoma de Cáncer" title="Fatiga">
+                    
+                    <!-- 2 POLÍGONOS -->
+                    <area shape="poly" coords="100,250,140,220,180,250,160,280,120,280" href="C/colitis.html" alt="Dolor abdominal - Enfermedades digestivas como Colitis" title="Dolor abdominal">
+                    <area shape="poly" coords="300,250,340,230,380,250,370,290,330,300,310,290" href="L/leucemia.html" alt="Hematomas - Problemas sanguíneos como Leucemia" title="Hematomas">
+                    
+                    <!-- Área por defecto -->
+                    <area shape="default" href="../buscador/buscador.html" alt="Buscar más síntomas" title="Buscador de enfermedades">
+                </map>
+                <img usemap="#sintomasMedicos" src="../img/sintomas-comunes.jpg" alt="Infografía de síntomas médicos comunes" width="450">
+            </div>
+
+            <div class="sintomas-lista">
+                <h3>Síntomas incluidos:</h3>
+                <ul>
+                    <li>Fiebre</li>
+                    <li>Dolor muscular</li>
+                    <li>Lesiones en piel</li>
+                    <li>Fatiga</li>
+                    <li>Dolor abdominal</li>
+                    <li>Hematomas</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Enciclopedia Médica</p>
+    </footer>
+</body>
+</html>
