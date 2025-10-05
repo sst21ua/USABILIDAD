@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <title> Enciclopedia médica | Letra D | Dengue </title>
         <link rel="stylesheet" href="../styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
     </head>
 
@@ -12,16 +13,20 @@
 
         <header>
 
-            <a href="../index.html">
-                <img src="../img/logo.jpg" width="100" alt="logo">
+            <a href="../index.html" aria-label="Ir a la página de inicio">
+                <img src="../img/logo.jpg" width="100" alt="Logo de la Enciclopedia Médica">
             </a>
 
             <h1> Enfermedad del Dengue </h1>
 
             <hr>
 
-            <nav>
-                <a href="../index.html">Inicio</a><a> > <a href="../D/D.html">Índice D</a> ><span>Dengue</span>
+            <nav aria-label="Ruta de navegación">
+                <a href="../index.html">Inicio</a>
+                <span aria-hidden="true"> &gt; </span>
+                <a href="../D/D.html">Índice D</a>
+                <span aria-hidden="true"> &gt; </span>
+                <span aria-current="page">Dengue</span>
             </nav>
 
             <hr>
@@ -93,7 +98,9 @@
                 <section>
 
                     <h3>Video relacionado</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/IlbKUxVNxUk?si=2clb-7HR4XXWQ43i" title="DENGUE [REPASO RÁPIDO] 🏃🕙- fisiopatología, signos y síntomas, diagnóstico, tratamiento y prevención" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div role="region" aria-label="Video explicativo sobre el dengue">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/IlbKUxVNxUk?si=2clb-7HR4XXWQ43i" title="DENGUE [REPASO RÁPIDO] 🏃🕙- fisiopatología, signos y síntomas, diagnóstico, tratamiento y prevención" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
 
                 </section>
 
@@ -106,8 +113,8 @@
         <footer>
 
             <ul>    
-                <li><a href="D.html">Haz click aquí para ir al catálogo de la D</a></li>
-                <li><a href="../index.html">Haz click aquí para volver a la página principal</a></li>  
+                <li><a href="D.html" aria-label="Ir al catálogo de enfermedades de la letra D">Haz click aquí para ir al catálogo de la D</a></li>
+                <li><a href="../index.html" aria-label="Volver a la página principal">Haz click aquí para volver a la página principal</a></li>  
             </ul>
 
             <p>&copy; 2025 Enciclopedia Médica. Creado por Saül Soriano Tortajada y Gonzalo Rodríguez Gallardo</p>

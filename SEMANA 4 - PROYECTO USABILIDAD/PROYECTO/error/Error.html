@@ -4,25 +4,28 @@
       <head>
 
             <meta charset="utf-8">
-            <title> Error 404 - Página no encontrada | Enciclopedia </title>
-      
+            <title> Enciclopedia médica | Error 404 - Página no encontrada </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="../styles.css">
+
       </head>
 
       <body>
 
             <header>
-                  <h1> Página no encontrada </h1>
+                  <h1 id="titulo-error">Página no encontrada</h1>
             </header>
             
-            <main>
+            <main role="main" aria-labelledby="titulo-error">
                   <article>
 
                         <figure>
-                              <img src="../img/error.svg" alt="Imágen cómica que indica que hubo un error" width="100">
+                              <img src="../img/error.svg" alt="Imagen cómica de error: página no encontrada" width="100">
+                              <figcaption>La página solicitada no existe o ha sido movida.</figcaption>
                         </figure>
                         
-                        <h2> Por favor vuelva a la página principal </h2>
-                        <a href="../index.html">Volver a la página principal</a>
+                        <h2>Por favor, vuelva a la página principal</h2>
+                        <a href="../index.html" class="boton-principal" aria-label="Volver a la página principal">Volver a la página principal</a>
 
                   </article>
 
