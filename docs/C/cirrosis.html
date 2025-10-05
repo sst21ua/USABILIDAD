@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <title> Enciclopedia médica | Letra C | Cirrosis </title>
         <link rel="stylesheet" href="../styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
     </head>
 
@@ -12,16 +13,20 @@
 
         <header>
 
-            <a href="../index.html">
-                <img src="../img/logo.jpg" width="100" alt="logo">
+            <a href="../index.html" aria-label="Ir a la página de inicio">
+                <img src="../img/logo.jpg" width="100" alt="Logo de la Enciclopedia Médica">
             </a>
 
             <h1> Enfermedad de la Cirrosis </h1>
 
             <hr>
 
-            <nav>
-                <a href="../index.html">Inicio</a><a> > <a href="../C/C.html">Índice C</a> ><span>Cirrosis</span>
+            <nav aria-label="Ruta de navegación">
+                <a href="../index.html">Inicio</a>
+                <span aria-hidden="true"> &gt; </span>
+                <a href="../C/C.html">Índice C</a>
+                <span aria-hidden="true"> &gt; </span>
+                <span aria-current="page">Cirrosis</span>
             </nav>
 
             <hr>
@@ -38,14 +43,14 @@
 
                 <section> 
 
-                    <h2>Descripción</h2>
+                    <h3>Descripción</h3>
                     <p>La <strong>cirrosis hepática</strong> es una enfermedad crónica y progresiva del hígado caracterizada por la destrucción del tejido hepático sano y su reemplazo por tejido cicatricial. Esta alteración impide que el hígado funcione correctamente, afectando procesos vitales como la desintoxicación de la sangre, la producción de proteínas y la digestión de grasas. Aunque el daño no puede revertirse, un diagnóstico temprano puede ralentizar su progresión y mejorar la calidad de vida.</p>
                 
                 </section>
 
                 <section>
 
-                    <h2>Causas</h2>
+                    <h3>Causas</h3>
                     
                     <ul>
                         <li>Consumo excesivo de alcohol</li>
@@ -95,8 +100,9 @@
                 <section>
 
                     <h3>Video relacionado</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/b95c4kYiJss?si=RHeuZh5j42Y4okij&amp;start=2" title="¿Qué es la Cirrosis?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                
+                    <div role="region" aria-label="Video explicativo sobre la cirrosis">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/b95c4kYiJss?si=RHeuZh5j42Y4okij&amp;start=2" title="¿Qué es la Cirrosis?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </section>
 
             </article>
@@ -108,8 +114,8 @@
         <footer>
 
             <ul>
-                <li><a href="C.html">Haz click aquí para ir al catálogo de la C</a></li>
-                <li><a href="../index.html">Haz click aquí para volver a la página principal</a></li>  
+                <li><a href="C.html" aria-label="Ir al catálogo de enfermedades de la letra C">Haz click aquí para ir al catálogo de la C</a></li>
+                <li><a href="../index.html" aria-label="Volver a la página principal">Haz click aquí para volver a la página principal</a></li>  
             </ul>
 
             <p>&copy; 2025 Enciclopedia Médica. Creado por Saül Soriano Tortajada y Gonzalo Rodríguez Gallardo</p>

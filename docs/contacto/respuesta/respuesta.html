@@ -6,6 +6,7 @@
 		<meta charset="utf-8">
 		<title> Enciclopedia Médica | Respuesta de Contacto </title>
 		<link rel="stylesheet" href="../../styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	</head>
 
@@ -13,7 +14,7 @@
 
 		<header>
 
-			<a href="../../index.html">
+			<a href="../../index.html" aria-label="Ir a la página de inicio">
 				<img src="../../img/logo.jpg" width="100" alt="Logo de la Enciclopedia Médica">
 			</a>
 
@@ -21,8 +22,12 @@
 			
 			<hr>
 
-            <nav>
-                <a href="../../index.html">Inicio</a><a> > <a href="../contacto.html">Contacto</a> ><span>Respuesta</span>
+            <nav aria-label="Ruta de navegación">
+                <a href="../../index.html">Inicio</a>
+                <span aria-hidden="true"> &gt; </span>
+                <a href="../contacto.html">Contacto</a>
+                <span aria-hidden="true"> &gt; </span>
+                <span aria-current="page">Respuesta</span>
             </nav>
 
             <hr>
@@ -33,7 +38,9 @@
 
 			<h2>Información enviada</h2>
 
-			<p>Gracias por contactar con nosotros. Le llegará a su correo la respuesta </p>
+			<p>Gracias por contactar con nosotros. Le llegará a su correo la respuesta.</p>
+
+			<img src="../../img/correo_enviado.jpg" alt="Imagen de correo enviado" width="300">
 
 			<hr>
 

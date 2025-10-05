@@ -6,6 +6,7 @@
 		<meta charset="utf-8">
 		<title> Enciclopedia médica | Respuesta de Sugerencias</title>
 		<link rel="stylesheet" href="../../styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	</head>
 
@@ -14,7 +15,7 @@
 
 	<header>
 
-		<a href="../../index.html">
+		<a href="../../index.html" aria-label="Ir a la página de inicio">
 			<img src="../../img/logo.jpg" width="100" alt="Logo de la Enciclopedia Médica">
 		</a>
 
@@ -22,8 +23,12 @@
 		
 		<hr>
 
-		<nav>
-			<a href="../../index.html">Inicio</a><a> > <a href="../sugerencias.html">Sugerencias</a> ><span>Respuesta</span>
+		<nav aria-label="Ruta de navegación">
+			<a href="../../index.html">Inicio</a>
+			<span aria-hidden="true"> &gt; </span>
+			<a href="../sugerencia.html">Sugerencias</a>
+			<span aria-hidden="true"> &gt; </span>
+			<span aria-current="page">Respuesta</span>
 		</nav>
 
 		<hr>
@@ -32,19 +37,19 @@
 
 	<main>
 
-		<h1>Formulario Enviado</h1>
+		<h2>Formulario Enviado</h2>
 
 		<p>Hemos recibido su consulta, en breve nos pondremos en contacto para proporcionarle una respuesta.</p>
 		<p>Gracias por ayudarnos a mejorar.</p>
 
-		<img src="../../img/correo_enviado.jpg" alt="Imágen que muestra la verificación que se ha enviado el correo" width="300">
+		<img src="../../img/correo_enviado.jpg" alt="Imagen de verificación de correo enviado" width="300">
 
 		<hr>
 	
 	</main>
 
 	<footer>
-		<p><a href="../sugerencias.html">Volver a Sugerir</a></p>
+		<p><a href="../sugerencia.html">Volver a Sugerir</a></p>
 		<p><a href="../../index.html">Volver a la página principal</a></p>
 
 		<p>&copy; 2025 Enciclopedia Médica. Creado por Saül Soriano Tortajada y Gonzalo Rodríguez Gallardo</p>

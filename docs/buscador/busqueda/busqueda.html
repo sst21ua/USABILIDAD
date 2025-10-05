@@ -6,6 +6,7 @@
         <meta charset="utf-8">
         <title> Enciclopedia Médica | Resultados de Búsqueda</title>
         <link rel="stylesheet" href="../styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
     </head>
 
@@ -13,35 +14,39 @@
         
         <header>
 
-            <a href="../../index.html">
+            <a href="../../index.html" aria-label="Ir a la página de inicio">
                 <img src="../../img/logo.jpg" width="100" alt="Logo de la Enciclopedia Médica">
             </a>
 
-            <h1>Resultados de Búsqueda</h1>
+            <h1 id="titulo-resultados">Resultados de Búsqueda</h1>
 
             <hr>
 
-            <nav>
-                <a href="../../index.html">Inicio</a><a> > <a href="../buscador.html">Buscador</a> ><span>Busqueda</span>
+            <nav aria-label="Ruta de navegación">
+                <a href="../../index.html">Inicio</a>
+                <span aria-hidden="true"> &gt; </span>
+                <a href="../buscador.html">Buscador</a>
+                <span aria-hidden="true"> &gt; </span>
+                <span aria-current="page">Búsqueda</span>
             </nav>
 
             <hr>
 
         </header>
 
-        <main>
+        <main aria-labelledby="titulo-resultados">
 
             <h2>Resultados de la búsqueda</h2>
 
-            <p>La búsqueda no ha producido resultados para el criterio de búsqueda empleado, pruebe a realizar otra búsqueda.</p>
+            <p>No se han encontrado resultados para el criterio de búsqueda empleado. Por favor, pruebe a realizar otra búsqueda.</p>
 
             <hr>
 
         </main>
 
         <footer>
-            <p><a href="../buscador.html">Volver al buscador</a></p>
-            <p><a href="../../index.html">Volver a la página principal</a></p>
+            <p><a href="../buscador.html" aria-label="Volver al buscador">Volver al buscador</a></p>
+            <p><a href="../../index.html" aria-label="Volver a la página principal">Volver a la página principal</a></p>
 
             <p>&copy; 2025 Enciclopedia Médica. Creado por Saül Soriano Tortajada y Gonzalo Rodríguez Gallardo</p>
         </footer>

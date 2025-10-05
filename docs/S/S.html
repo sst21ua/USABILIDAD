@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <title> Enciclopedia médica | Letra S</title>
     <link rel="stylesheet" href="../styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
   </head>
 
@@ -13,17 +14,19 @@
 
     <header>
 
-      <a href="../index.html">
-        <img src="../img/logo.jpg" width="100" alt="logo">
+      <a href="../index.html" aria-label="Ir a la página de inicio">
+        <img src="../img/logo.jpg" width="100" alt="Logo de la Enciclopedia Médica">
       </a>
 
       <h1>Índice S</h1>
 
       <hr>
 
-    	<nav>
-		    <a href="../index.html">Inicio</a><a> > <span>Índice S</span>
-	    </nav>
+      <nav aria-label="Ruta de navegación">
+        <a href="../index.html">Inicio</a>
+        <span aria-hidden="true"> &gt; </span>
+        <span aria-current="page">Índice S</span>
+      </nav>
 
       <hr>
 
@@ -31,22 +34,22 @@
 
     <main>
 
-      <section>
+      <section aria-labelledby="elige-enfermedad">
 
-          <h2>Elija la enfermedad que quiera consultar</h2>
+          <h2 id="elige-enfermedad">Elija la enfermedad que quiera consultar</h2>
 
           <ul>
-            <li><a href="salmonella.html">Salmonella</a></li>
-            <li><a href="sifilis.html">Sífilis</a></li>
+            <li><a href="salmonella.html" aria-label="Consultar información sobre Salmonella">Salmonella</a></li>
+            <li><a href="sifilis.html" aria-label="Consultar información sobre Sífilis">Sífilis</a></li>
           </ul>
 
       </section>
 
-      <section>
+      <section aria-labelledby="tabla-enfermedades-s">
 
-        <table>
+        <table aria-labelledby="tabla-enfermedades-s">
 
-          <caption>Información general sobre enfermedades de la letra S</caption>
+          <caption id="tabla-enfermedades-s">Información general sobre enfermedades de la letra S</caption>
 
           <thead>
 
