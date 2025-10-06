@@ -1,7 +1,48 @@
-table, tr, th, td {
-
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 8px;
+a {
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: #0066cc;
+  }
   
-}
+  a:hover, a:focus {
+      text-decoration: underline;
+      color: #004499;
+      background-color: #f0f8ff;
+      outline: 2px solid #0066cc;
+      outline-offset: 2px;
+  }
+  
+  a img:hover {
+      opacity: 0.8;
+      transform: scale(1.05);
+  }
+  
+  /* Estilo específico para los enlaces del índice A-Z */
+  nav[aria-label="Índice alfabético de enfermedades"] a {
+      display: inline-block;
+      padding: 5px 10px;
+      margin: 2px;
+      border-radius: 3px;
+  }
+  
+  /* Estilo para los enlaces de "Entrar al artículo" */
+  .article-link {
+      display: inline-block;
+      padding: 8px 15px;
+      border: 1px solid #0066cc;
+      border-radius: 4px;
+      margin-top: 10px;
+  }
+  
+  .article-link:hover, .article-link:focus {
+      background-color: #0066cc;
+      color: white;
+  }
+
+  table, tr, th, td {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    
+  }
