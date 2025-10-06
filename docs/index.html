@@ -2,10 +2,10 @@
 <html lang="es">
 
     <head>
-
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Enciclopedia médica | UA</title>
+        <link rel="stylesheet" href="styles.css">
 
     </head>
 
@@ -93,9 +93,11 @@
 
                     <img src="img/diabetes.jpg" alt="Persona midiendo el nivel de azúcar en sangre con un glucómetro" width="100">
 
-                    <ul>
-                        <li><a href="D/diabetes.html" aria-label="Leer artículo sobre Diabetes">Entrar al artículo</a></li>
-                    </ul>
+                    <nav aria-label="Acceso al artículo sobre Diabetes">
+                        <ul>
+                            <li><a href="D/diabetes.html" aria-label="Leer artículo sobre Diabetes" class="article-link">Entrar al artículo</a></li>
+                        </ul>
+                    </nav>
 
                 </article>
 
@@ -107,9 +109,11 @@
 
                     <img src="img/sifilis.jpg" alt="Representación visual de la enfermedad de la Sífilis" width="100">
 
-                    <ul>
-                        <li><a href="S/Sifilis.html" aria-label="Leer artículo sobre Sífilis">Entrar al artículo</a></li>
-                    </ul>
+                    <nav aria-label="Acceso al artículo sobre Sífilis">
+                        <ul>
+                            <li><a href="S/Sifilis.html" aria-label="Leer artículo sobre Sífilis" class="article-link">Entrar al artículo</a></li>
+                        </ul>
+                    </nav>
 
                 </article>
 
@@ -117,11 +121,13 @@
 
             <hr>
 
-            <section>
+            <section aria-labelledby="sistemas-cuerpo">
+
+                <h2 id="sistemas-cuerpo">Enfermedades sistemas del cuerpo</h2>
 
                 <article>
 
-                    <h2>Enfermedades sistemas del cuerpo</h2>
+                    <h3>Mapa de sistemas corporales</h3>
 
                     <div>
 
@@ -148,7 +154,7 @@
 
                 <article>
 
-                    <h2>¿Cuáles son las enfermedades más comunes de esta enciclopedia?</h2>
+                    <h3>Enfermedades más comunes</h3>
 
                     <div>
 
@@ -180,12 +186,12 @@
 
         <footer>
 
-            <section aria-label="Contacto">
+            <section aria-labelledby="contacto-footer">
 
-                <h3>Si tienes alguna duda:</h3>
+                <h3 id="contacto-footer">Si tienes alguna duda:</h3>
                 
                 <img src="img/telefono.png" alt="Icono de teléfono" width="20">
-                <a href="contacto/contacto.html" aria-label="Ir a la página de contacto">Contáctanos</a>
+                <a href="contacto/contacto.html" aria-label="Contactar con la enciclopedia médica">Contáctanos</a>
                 <img src="img/telefono.png" alt="Icono de teléfono" width="20">
 
             </section>
