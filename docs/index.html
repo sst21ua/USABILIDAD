@@ -15,13 +15,13 @@
 
             <h1>Enciclopedia Médica</h1>
 
-            <a href="index.html" aria-label="Inicio Enciclopedia Médica">
+            <a id="imagenLogo" href="index.html" aria-label="Inicio Enciclopedia Médica">
                 <img src="img/logo.jpg" width="100" alt="Logo de la Enciclopedia Médica">
             </a>
 
             <hr>
 
-            <section aria-labelledby="herramientas">
+            <section>
 
                 <h2 id="herramientas">Herramientas</h2>
 
@@ -31,7 +31,7 @@
                         <li><a href="contacto/contacto.html">Contactar</a></li>
                         <li><a href="sugerencias/sugerencia.html">Sugerencias página web</a></li>
                         <li><a href="mapaVisual/mapaVisual.html">Mapa visual</a></li>
-                        <li><a href="declaracionac/declaracionac.html">Declaración accesibilidad</a></li>
+                        <li><a href="declaracionesAccesibilidad/declaracionesAccesibilidad.html">Declaración accesibilidad</a></li>
                     </ul>
                 </nav>
 
@@ -41,13 +41,25 @@
 
         </header>
 
-        <main>
+        <main id="inicio">
+           
+            <aside id="ainicio">
 
-            <section aria-labelledby="indice-az">
+                <h2>Tabla de contenidos</h2>
+
+                <ul>
+                    <li><a href="#indice-az">índice A-Z</a></li>
+                    <li><a href="#temas-destacados">Temas Destacados</a></li>
+                    <li><a href="#sistemas-cuerpo">Enfermedades sistemas del cuerpo</a></li>
+                </ul>
+                
+            </aside>
+
+            <section>
 
                 <h2 id="indice-az">Índice A-Z</h2>
 
-                <nav aria-label="Índice alfabético de enfermedades">
+                <nav id="indice-AZ" >
                     <ul>
                         <li><a href="error/Error.html" aria-label="Sección en desarrollo - Letra A">A</a></li>
                         <li><a href="error/Error.html" aria-label="Sección en desarrollo - Letra B">B</a></li>
@@ -80,9 +92,7 @@
 
             </section>
 
-            <hr>
-
-            <section aria-labelledby="temas-destacados"> 
+            <section> 
 
                 <h2 id="temas-destacados">Temas Destacados</h2>
 
@@ -94,7 +104,7 @@
 
                     <img src="img/diabetes.jpg" alt="Persona midiendo el nivel de azúcar en sangre con un glucómetro" width="100">
 
-                    <nav aria-label="Acceso al artículo sobre Diabetes">
+                    <nav>
                         <ul>
                             <li><a href="D/diabetes.html" aria-label="Leer artículo sobre Diabetes" class="article-link">Entrar al artículo</a></li>
                         </ul>
@@ -110,7 +120,7 @@
 
                     <img src="img/sifilis.jpg" alt="Representación visual de la enfermedad de la Sífilis" width="100">
 
-                    <nav aria-label="Acceso al artículo sobre Sífilis">
+                    <nav>
                         <ul>
                             <li><a href="S/Sifilis.html" aria-label="Leer artículo sobre Sífilis" class="article-link">Entrar al artículo</a></li>
                         </ul>
@@ -120,9 +130,7 @@
 
             </section> 
 
-            <hr>
-
-            <section aria-labelledby="sistemas-cuerpo">
+            <section>
 
                 <h2 id="sistemas-cuerpo">Enfermedades sistemas del cuerpo</h2>
 
@@ -181,21 +189,25 @@
 
             </section>
 
-            <hr>
-
         </main>
 
         <footer>
 
-            <section aria-labelledby="contacto-footer">
+            <h3 id="contacto-footer">¿Tienes alguna duda?</h3>
+            
+            <ul>
+                <li><a href="index.html">&uarr; Volver arriba</a></li>
+                <li>
+                    <a href="contacto/contacto.html" aria-label="Contactar con la enciclopedia médica">
+                        <img src="img/telefono.png" alt="Icono de teléfono" width="20">
+                        Contáctanos
+                        <img src="img/telefono.png" alt="Icono de teléfono" width="20">
+                    </a>
+                </li>
+            </ul>
+            
+            
 
-                <h3 id="contacto-footer">Si tienes alguna duda:</h3>
-                
-                <img src="img/telefono.png" alt="Icono de teléfono" width="20">
-                <a href="contacto/contacto.html" aria-label="Contactar con la enciclopedia médica">Contáctanos</a>
-                <img src="img/telefono.png" alt="Icono de teléfono" width="20">
-
-            </section>
 
             <p>&copy; 2025 Enciclopedia Médica. Creado por Saül Soriano Tortajada y Gonzalo Rodríguez Gallardo</p>
         </footer>

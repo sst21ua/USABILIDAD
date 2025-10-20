@@ -1,0 +1,114 @@
+<!doctype HTML>
+<html lang="es">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title> Enciclopedia médica | Contactar </title>
+        <link rel="stylesheet" href="../styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <a id="imagenLogo" href="../index.html" aria-label="Ir a la página de inicio">
+                <img src="../img/logo.jpg" width="100" alt="Logo de la Enciclopedia Médica">
+            </a>
+
+            <h1>Contactar</h1>
+
+            <hr>
+
+            <nav aria-label="Ruta de navegación">
+                <a href="../index.html">Inicio</a>
+                <span aria-hidden="true"> &gt; </span>
+                <span aria-current="page">Contacto</span>
+            </nav>
+
+            <hr>
+
+        </header>
+
+        <main>
+
+            <h2>Ponte en contacto</h2>
+            <p>Rellene el siguiente formulario (Los campos con asteriscos son obligatorios (<abbr title="Obligatorio">*</abbr>)):</p>
+
+            <form action="respuesta/respuesta.html">
+
+                <p>
+                    <label for="asunto">Asunto <abbr title="Obligatorio">*</abbr>:</label>
+                    <input id="asunto" type="text" name="asunto" required autocomplete="off">
+                </p>
+
+                <p>
+                    <label for="comentario">Comentario <abbr title="Obligatorio">*</abbr>:</label>
+                    <textarea id="comentario" name="comentario" rows="4" required aria-required="true"></textarea>
+                </p>
+
+                <p>
+                    <label for="soy">Yo soy:</label>
+                    <select id="soy" name="soy">
+                        <option value="Paciente">Paciente</option>
+                        <option value="Científico">Científico</option>
+                        <option value="Medico">Médico</option>
+                        <option value="Educador">Educador</option>
+                        <option value="Fabricante">Fabricante</option>
+                        <option value="Periodista">Periodista</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="fecha">Fecha de nacimiento <abbr title="Obligatorio">*</abbr>:</label>
+                    <input id="fecha" type="date" name="fecha" required>
+                </p>
+
+                <fieldset>
+                    <legend>Sexo:</legend>
+                    <p>
+                        <input type="radio" id="hombre" name="sexo" value="hombre">
+                        <label for="hombre">Hombre</label>
+
+                        <input type="radio" id="mujer" name="sexo" value="mujer">
+                        <label for="mujer">Mujer</label>
+
+                        <input type="radio" id="otro" name="sexo" value="otro">
+                        <label for="otro">Otro</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <label for="email">Correo <abbr title="Obligatorio">*</abbr>:</label>
+                    <input id="email" type="email" name="correo" placeholder="ejemplo@dominio.com" required autocomplete="email">
+                </p>
+
+                <p>
+                    <input type="checkbox" id="informacion" name="informacion">
+                    <label for="informacion">Deseo recibir más información</label>
+                </p>
+
+                <p>
+                <button type="submit" aria-label="Buscar artículos">Buscar</button>
+                <button type="reset" aria-label="Limpiar formulario de búsqueda">Limpiar Formulario</button>
+            </p>
+
+            </form>
+
+        </main>
+
+        <footer>
+
+            <ul>
+                <li><a href="contacto.html">&uarr; Ir arriba</a></li>
+                <li><a href="../index.html" aria-label="Volver a la página principal">Inicio</a></li>
+            </ul>
+
+            <p>&copy; 2025 Enciclopedia Médica. Creado por Saül Soriano Tortajada y Gonzalo Rodríguez Gallardo</p>
+        </footer>
+
+    </body>
+
+</html>

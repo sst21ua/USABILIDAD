@@ -14,7 +14,7 @@
 
         <header>
 
-            <a href="../index.html" aria-label="Ir a la página de inicio">
+            <a id="imagenLogo" href="../index.html" aria-label="Ir a la página de inicio">
                 <img src="../img/logo.jpg" width="100" alt="Logo de la Enciclopedia Médica">
             </a>
 
@@ -38,7 +38,7 @@
 
             <p>Los campos con asteriscos son obligatorios (<abbr title="Obligatorio">*</abbr>). Puede combinar varios campos para refinar su búsqueda.</p>
 
-            <form action="busqueda/busqueda.html" method="post" aria-labelledby="form-buscador" id="form-buscador">
+            <form action="busqueda/busqueda.html">
 
                 <p>
                     <label for="descripcion">Descripción <abbr title="Obligatorio">*</abbr>:</label>
@@ -52,7 +52,7 @@
 
                 <p>
                     <label for="sintomas">Síntomas:</label>
-                    <select id="sintomas" name="sintomas" multiple size="5" aria-describedby="ayuda-sintomas">
+                    <select id="sintomas" name="sintomas">
                         <option value="fiebre">Fiebre</option>
                         <option value="vomito">Vómito</option>
                         <option value="diarrea">Diarrea</option>
@@ -64,12 +64,12 @@
                         <option value="mareos">Mareos</option>
                         <option value="perdida_peso">Pérdida de peso</option>
                     </select>
-                    <small id="ayuda-sintomas">(Mantenga presionada la tecla Ctrl para seleccionar múltiples síntomas)</small>
+                    <small>(Mantenga presionada la tecla Ctrl para seleccionar múltiples síntomas)</small>
                 </p>
 
                 <p>
                     <label for="pruebas">Pruebas y exámenes:</label>
-                    <select id="pruebas" name="pruebas" multiple size="5" aria-describedby="ayuda-pruebas">
+                    <select id="pruebas" name="pruebas">
                         <option value="analisis_sangre">Análisis de sangre</option>
                         <option value="ecografia">Ecografía</option>
                         <option value="radiografia">Radiografía</option>
@@ -81,7 +81,7 @@
                         <option value="biopsia">Biopsia</option>
                         <option value="pruebas_alergia">Pruebas de alergia</option>
                     </select>
-                    <small id="ayuda-pruebas">(Mantenga presionada la tecla Ctrl para seleccionar múltiples pruebas)</small>
+                    <small>(Mantenga presionada la tecla Ctrl para seleccionar múltiples pruebas)</small>
                 </p>
 
                 <p>
@@ -106,18 +106,21 @@
                 </fieldset>
 
                 <p>
-                    <input type="submit" value="Buscar" aria-label="Buscar artículos">
-                    <input type="reset" value="Limpiar formulario" aria-label="Limpiar formulario de búsqueda">
+                    <button type="submit" aria-label="Buscar artículos">Buscar</button>
+                    <button type="reset" aria-label="Limpiar formulario de búsqueda">Limpiar Formulario</button>
                 </p>
 
             </form>
 
-        <hr>
-
         </main>
 
         <footer>
-            <a href="../index.html" aria-label="Volver a la página principal">Volver a la página principal</a>
+
+            <ul>
+                <li><a href="buscador.html">&uarr; Ir arriba</a></li>
+                <li><a href="../index.html" aria-label="Volver a la página principal">Inicio</a></li>
+            </ul>
+
             <p>&copy; 2025 Enciclopedia Médica. Creado por Saül Soriano Tortajada y Gonzalo Rodríguez Gallardo</p>
         </footer>
 
