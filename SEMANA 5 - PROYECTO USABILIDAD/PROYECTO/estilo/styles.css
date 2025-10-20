@@ -8,46 +8,6 @@ Texto principal         | Gris oscuro   | #333333   | Contraste alto sobre fondo
 Texto secundario        | Gris medio    | #666666   | Para subtítulos o contenido menos destacado.
 Color de énfasis        | Verde suave   | #66B2B2   | Variante clara del teal. Útil para hover, enlaces o íconos.
 
-    Estructura de todo el Style.
-    HEADER (padding:15px 0)
-    MAIN
-    FOOTER (padding:15px 0)
-
-
-    CLASIFICACIÓN DE TUS PROPIEDADAS:
-
-    Posicionamiento y modelo de caja:
-        margin
-        padding
-        width
-        height
-        display
-        text-align
-        border-radius
-        line-height
-        gap
-        flex-wrap
-        justify-content
-        align-items
-        vertical-align
-        border-collapse
-        list-style
-
-    Tipografía:
-        font-family
-        font-weight
-        font-style
-        color
-        text-decoration
-        text-align (cuando afecta solo texto)
-
-    Visual:
-        background-color
-        border
-        box-shadow
-        border-radius (cuando es puramente estético)
-        transition
-
 */
 
 /* VARIABLES DE COLOR */
