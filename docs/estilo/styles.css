@@ -115,19 +115,8 @@ main h3 {
 }
 
 /* MAIN - ASIDE */
-main aside#ainicio {
-    float: right; /* situamos el aside a la derecha */
-    width: 16%; /* Aplicamos la longitud del aside */
+main aside {
     margin: 20px; /* Mismo margen que las sections */
-    padding: 15px; /* Mismo padding que las sections */
-    border-radius: 8px; /* Mismo borde redondeado */
-    background-color: white; /* Mismo fondo blanco */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Misma sombra */
-}
-
-main aside#aenfermedad {
-    float: right; /* situamos el aside a la derecha */
-    width: 16%; /* Aplicamos la longitud del aside */
     padding: 15px; /* Mismo padding que las sections */
     border-radius: 8px; /* Mismo borde redondeado */
     background-color: white; /* Mismo fondo blanco */
@@ -137,6 +126,7 @@ main aside#aenfermedad {
 main aside ul {
     padding: 10px; /* Aplicamos un paddign general */
     list-style: none; /* Eliminamos los puntos del listado */
+    width: 30%;
 }
 
 main aside ul li {
@@ -179,24 +169,6 @@ main #indice-AZ ul li a:hover {
 main section {
     margin: 20px; /* Aplicamos un margen general (todos los lados) para distinguir cada section */
     padding: 15px; /* Aplicamos el padding para que la información no esté apegada al borde */
-    border-radius: 8px; /* Redondeamos los bordes de la sección y la hacemos más visual */
-    background-color: white; /* blanco | Aplicamos el color blanco como fondo de cada sección */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Aplicamos una sombra para enfatizarla sección */
-}
-
-main#inicio section {
-    margin: 20px; /* Aplicamos un margen general (todos los lados) para distinguir cada section */
-    padding: 15px; /* Aplicamos el padding para que la información no esté apegada al borde */
-    width: 78%; /* Aplicamos un ancho para que el aside quede bien */
-    border-radius: 8px; /* Redondeamos los bordes de la sección y la hacemos más visual */
-    background-color: white; /* blanco | Aplicamos el color blanco como fondo de cada sección */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Aplicamos una sombra para enfatizarla sección */
-}
-
-main#enfermedad section {
-    margin: 20px; /* Aplicamos un margen general (todos los lados) para distinguir cada section */
-    padding: 15px; /* Aplicamos el padding para que la información no esté apegada al borde */
-    width: 78%; /* Aplicamos un ancho para que el aside quede bien */
     border-radius: 8px; /* Redondeamos los bordes de la sección y la hacemos más visual */
     background-color: white; /* blanco | Aplicamos el color blanco como fondo de cada sección */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Aplicamos una sombra para enfatizarla sección */
@@ -379,21 +351,139 @@ footer ul li {
     margin: 10px 0; /* Aplicamos un margen de 10px por arriba y abajo*/
 }
 
-@media (max-width: 600px) {
+/* MEDIA QUERIES PARA DISPOSITIVOS MÓVILES */
+@media (max-width: 768px) {
+    
     body {
         font-size: 14px;
     }
-
-    header nav {
+    
+    /* HEADER - MÓVIL */
+    header {
+        padding: 10px 0;
+    }
+    
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    header a#imagenLogo {
+        width: 105px;
+        height: 105px;
+    }
+    
+    header ul {
         flex-direction: column;
+        gap: 15px;
+        padding: 0;
     }
-
-    .form-container {
-        margin: 30px 15px;
-        padding: 20px;
+    
+    header ul li a {
+        padding: 10px 15px;
+        width: 80%;
+        margin: 0 auto;
     }
-
-    article img {
+    
+    /* MAIN - MÓVIL */
+    main {
+        padding: 10px 0;
+    }
+    
+    main section {
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    main aside {
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    main aside ul {
         width: 100%;
+    }
+    
+    main aside ul li a {
+        padding: 10px 15px;
+    }
+    
+    /* IMÁGENES - MÓVIL */
+    main img {
+        width: 90vw;
+        max-width: 100%;
+        margin: 10px auto;
+        display: block;
+    }
+    
+    main article img {
+        margin-left: 0;
+        margin: 10px auto;
+    }
+    
+    /* LISTAS Y GRID - MÓVIL */
+    main section ul {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+    }
+    
+    main ul#mapaVisual {
+        display: block;
+    }
+    
+    /* TABLAS - MÓVIL */
+    main table {
+        margin: 5px;
+        font-size: 0.9em;
+    }
+    
+    main table th, 
+    main table td {
+        padding: 5px;
+        font-size: 0.9em;
+    }
+    
+    /* FORMULARIOS - MÓVIL */
+    main form {
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    main form p {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    main form input,
+    main form select,
+    main form textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    main form button {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    /* TÍTULOS - MÓVIL */
+    main h2, 
+    main h3 {
+        padding: 5px;
+        text-align: center;
+    }
+    
+    /* FOOTER - MÓVIL */
+    footer ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    footer a {
+        padding: 10px 15px;
+        display: inline-block;
+        width: 80%;
     }
 }
