@@ -395,6 +395,11 @@ footer ul li {
         padding: 10px;
     }
     
+    main section ul {
+        gap: 30px 10px;
+        padding: 0;
+    }
+    
     main aside {
         margin: 10px;
         padding: 10px;
@@ -422,11 +427,6 @@ footer ul li {
     }
     
     /* LISTAS Y GRID - MÓVIL */
-    main section ul {
-        flex-direction: column;
-        gap: 15px;
-        padding: 0;
-    }
     
     main ul#mapaVisual {
         display: block;
