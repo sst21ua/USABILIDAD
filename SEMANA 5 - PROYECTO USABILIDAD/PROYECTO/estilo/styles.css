@@ -309,24 +309,21 @@ main form input, select, textarea{
     border-radius: 8px; /* Redondeamos las esquinas */
     border: 2px solid var(--texto-principal); /* Gris oscuro | Aplicamos el borde del mismo color que tenemos y aumentamos el grosor */
 }
-
 main form button {
     margin-right: 10px; /* Añadimos un margen a la derecha del botón para que hay una separación */
     padding: 10px; /* Aplicamos un padding para una mejora visual */
     border-radius: 8px; /* Redondeamos las esquians del los botones */
-    color: var(--color-secundario); /* Azure | Aplicamos el color de las letas del botón */
-    background-color: var(--color-enfasis); /* Verde suave | Aplicamos el color de fondo del botón */
-    border: 2px solid var(--color-secundario);  /* Azure | Aplicamos el color de las letas del botón */
+    color: #FFFFFF; /* Texto blanco | Aplicamos el color de las letas del botón */
+    background-color: #007A7A; /* Teal brillante | Aplicamos el color de fondo del botón */
+    border: 2px solid #007A7A;  /* Texto blanco | Aplicamos el color de las letas del botón */
 }
 
 main form button:hover {
-    color: var(--color-enfasis); /* Verde suave | Aplicamos el color de las letas del botón cuando está el cursor */
-    background-color: var(--color-secundario); /* Azure | Aplicamos el color de fondo del botón cuando está el cursor */
-    border: 2px solid var(--color-enfasis); /* Verde suave | Aplicamos el color del borde del botón cuando está el cursor */
+    color: #F0FFFF; /* Texto azure claro | Aplicamos el color de las letas del botón cuando está el cursor */
+    background-color: #006666; /* Teal oscuro | Aplicamos el color de fondo del botón cuando está el cursor */
+    border: 2px solid #006666; /* Teal oscuro | Aplicamos el color del borde del botón cuando está el cursor */
 
-}
-
-/* MAIN - MAPA VISUAL*/
+    }    /* MAIN - MAPA VISUAL*/
 main ul#mapaVisual {
     display: grid; /* Alineamos verticalmente los elementos del listado */
 }

@@ -8,46 +8,6 @@ Texto principal         | Gris oscuro   | #333333   | Contraste alto sobre fondo
 Texto secundario        | Gris medio    | #666666   | Para subtítulos o contenido menos destacado.
 Color de énfasis        | Verde suave   | #66B2B2   | Variante clara del teal. Útil para hover, enlaces o íconos.
 
-    Estructura de todo el Style.
-    HEADER (padding:15px 0)
-    MAIN
-    FOOTER (padding:15px 0)
-
-
-    CLASIFICACIÓN DE TUS PROPIEDADAS:
-
-    Posicionamiento y modelo de caja:
-        margin
-        padding
-        width
-        height
-        display
-        text-align
-        border-radius
-        line-height
-        gap
-        flex-wrap
-        justify-content
-        align-items
-        vertical-align
-        border-collapse
-        list-style
-
-    Tipografía:
-        font-family
-        font-weight
-        font-style
-        color
-        text-decoration
-        text-align (cuando afecta solo texto)
-
-    Visual:
-        background-color
-        border
-        box-shadow
-        border-radius (cuando es puramente estético)
-        transition
-
 */
 
 /* VARIABLES DE COLOR */
@@ -349,24 +309,21 @@ main form input, select, textarea{
     border-radius: 8px; /* Redondeamos las esquinas */
     border: 2px solid var(--texto-principal); /* Gris oscuro | Aplicamos el borde del mismo color que tenemos y aumentamos el grosor */
 }
-
 main form button {
     margin-right: 10px; /* Añadimos un margen a la derecha del botón para que hay una separación */
     padding: 10px; /* Aplicamos un padding para una mejora visual */
     border-radius: 8px; /* Redondeamos las esquians del los botones */
-    color: var(--color-secundario); /* Azure | Aplicamos el color de las letas del botón */
-    background-color: var(--color-enfasis); /* Verde suave | Aplicamos el color de fondo del botón */
-    border: 2px solid var(--color-secundario);  /* Azure | Aplicamos el color de las letas del botón */
+    color: #FFFFFF; /* Texto blanco | Aplicamos el color de las letas del botón */
+    background-color: #007A7A; /* Teal brillante | Aplicamos el color de fondo del botón */
+    border: 2px solid #007A7A;  /* Texto blanco | Aplicamos el color de las letas del botón */
 }
 
 main form button:hover {
-    color: var(--color-enfasis); /* Verde suave | Aplicamos el color de las letas del botón cuando está el cursor */
-    background-color: var(--color-secundario); /* Azure | Aplicamos el color de fondo del botón cuando está el cursor */
-    border: 2px solid var(--color-enfasis); /* Verde suave | Aplicamos el color del borde del botón cuando está el cursor */
+    color: #F0FFFF; /* Texto azure claro | Aplicamos el color de las letas del botón cuando está el cursor */
+    background-color: #006666; /* Teal oscuro | Aplicamos el color de fondo del botón cuando está el cursor */
+    border: 2px solid #006666; /* Teal oscuro | Aplicamos el color del borde del botón cuando está el cursor */
 
-}
-
-/* MAIN - MAPA VISUAL*/
+    }    /* MAIN - MAPA VISUAL*/
 main ul#mapaVisual {
     display: grid; /* Alineamos verticalmente los elementos del listado */
 }
@@ -420,4 +377,23 @@ footer ul {
 
 footer ul li {
     margin: 10px 0; /* Aplicamos un margen de 10px por arriba y abajo*/
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    .form-container {
+        margin: 30px 15px;
+        padding: 20px;
+    }
+
+    article img {
+        width: 100%;
+    }
 }
