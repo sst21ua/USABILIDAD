@@ -214,6 +214,10 @@ main article img {
     border: 3px solid var(--texto-secundario); /* Gris medio | Aplicamos un borde de 3px */
 }
 
+main article iframe {
+    width: 560px;
+    height: 315px;
+}
 /* MAIN - TABLAS DE LOS ÍNDICES */
 
 main table {
@@ -351,6 +355,23 @@ footer ul li {
     margin: 10px 0; /* Aplicamos un margen de 10px por arriba y abajo*/
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ENLACE "Saltar a contenido" SIEMPRE VISIBLE */
+.skip-link {
+    position: fixed; /* Siempre visible */
+    top: 10px;       /* Desde arriba */
+    left: 10px;      /* Desde la izquierda */
+    background-color: #66B2B2; /* Verde suave */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
 /* MEDIA QUERIES PARA DISPOSITIVOS MÓVILES */
 @media (max-width: 768px) {
     
@@ -424,6 +445,11 @@ footer ul li {
     main article img {
         margin-left: 0;
         margin: 10px auto;
+    }
+
+    main article iframe {
+        width: 40vw;
+        height: auto;
     }
     
     /* LISTAS Y GRID - MÓVIL */
