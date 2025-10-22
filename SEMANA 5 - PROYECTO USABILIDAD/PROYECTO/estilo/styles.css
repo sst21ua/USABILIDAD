@@ -381,3 +381,22 @@ footer ul {
 footer ul li {
     margin: 10px 0; /* Aplicamos un margen de 10px por arriba y abajo*/
 }
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    .form-container {
+        margin: 30px 15px;
+        padding: 20px;
+    }
+
+    article img {
+        width: 100%;
+    }
+}
