@@ -1,0 +1,10 @@
+@import "style.css";
+
+:root{
+    --fondo-general: #000;
+}
+
+body {
+    margin: 10; /* Quitamos el margen de la página web, luego se irá añadiendo */
+    background-color: var(--fondo-general); /* Mint Cream | Color del fondo de la página web */
+}

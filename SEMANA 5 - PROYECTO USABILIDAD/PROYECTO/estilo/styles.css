@@ -1,23 +1,22 @@
 /*
-Rol del diseño           | Color         | HEX       | Descripción
-------------------------|---------------|-----------|--------------------------------------------------------
-Color principal         | Teal          | #008080   | Profesional y confiable. Ideal para encabezados y botones.
-Color secundario        | Azure claro   | #F0FFFF   | Suave y legible sobre teal. Útil para texto en headers.
-Fondo general           | Mint cream    | #F5FFFA   | Muy claro, casi blanco. Mejora la legibilidad general.
-Texto principal         | Gris oscuro   | #333333   | Contraste alto sobre fondo claro. Profesional y accesible.
-Texto secundario        | Gris medio    | #666666   | Para subtítulos o contenido menos destacado.
-Color de énfasis        | Verde suave   | #66B2B2   | Variante clara del teal. Útil para hover, enlaces o íconos.
-
+Paleta de diseño           | Color         | HEX       | Descripción
+----------------------------|---------------|-----------|--------------------------------------------------------
+Color principal             | Teal          | #008080   | Profesional y confiable. Encabezados y botones.
+Color secundario            | Azure claro   | #F0FFFF   | Suave y legible sobre teal. Texto de headers.
+Fondo general               | Mint cream    | #F5FFFA   | Muy claro, mejora la legibilidad.
+Texto principal             | Gris oscuro   | #333333   | Alto contraste sobre fondo claro. Accesible.
+Texto secundario            | Gris medio    | #666666   | Subtítulos o contenido menos destacado.
+Color de énfasis            | Verde suave   | #66B2B2   | Hover, enlaces o íconos.
 */
 
 /* VARIABLES DE COLOR */
 :root {
     --color-principal: #008080;      /* Teal */
-    --color-secundario: #F0FFFF;     /* Azure claro */
-    --fondo-general: #F5FFFA;        /* Mint cream */
-    --texto-principal: #333333;      /* Gris oscuro */
-    --texto-secundario: #666666;     /* Gris medio */
-    --color-enfasis: #66B2B2;        /* Verde suave */
+    --color-secundario: #F0FFFF;    /* Azure claro */
+    --fondo-general: #F5FFFA;       /* Mint cream */
+    --texto-principal: #333333;     /* Gris oscuro */
+    --texto-secundario: #666666;    /* Gris medio */
+    --color-enfasis: #008080;       /* Verde suave */
 }
 
 /* ESTILO GENERAL */
