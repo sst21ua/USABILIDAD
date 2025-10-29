@@ -1,0 +1,46 @@
+@import url("estilo-predeterminado.css");
+
+/* VARIABLES DE COLOR PARA MODO OSCURO */
+:root {
+    --color-principal: #008080;      /* Teal - Se mantiene igual */
+    --color-secundario: #E0F7FA;     /* Azure claro adaptado para oscuro */
+    --fondo-general: #121212;        /* Fondo oscuro general */
+    --texto-principal: #E0E0E0;      /* Texto principal claro */
+    --texto-secundario: #B0B0B0;     /* Texto secundario */
+    --color-enfasis: #4ECDC4;        /* Verde suave más vibrante para oscuro */
+    --color-fondos: #1E1E1E;         /* Fondo oscuro para secciones */
+}
+
+/* Tipografía legible */
+p {
+    font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    text-align: left;
+    max-width: 80ch; /* límite de 80 caracteres */
+    margin-left:auto; /* centrar en la pantalla */
+}
+
+/* Enlaces claramente visibles */
+a {
+    text-decoration: underline;
+    color: var(--color-principal);
+}
+
+a:hover, a:focus, a:active { /*esto es para que haya un outline que permita que se notifique mejor el boton*/
+    outline: 2px solid var(--color-principal);
+    outline-offset: 2px;
+}
+
+/* ----------------------------------------------------------
+   Según el texto, una forma sencilla de aplicar el modo oscuro
+   es usar el filtro "invert(1)". Este método invierte todos los
+   colores de la página, pero también afecta a imágenes, iconos
+   y vídeos, dejándolos con colores invertidos.
+   Por eso, aunque se puede usar, no es la opción más recomendable.
+
+   EJEMPLO DE MODO OSCURO CON FILTER 
+    body.filtro-invertido {
+         filter: invert(1);
+}
+---------------------------------------------------------- */

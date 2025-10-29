@@ -1,0 +1,155 @@
+<!doctype HTML>
+<html lang="es">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Enciclopedia médica | Sugerencias</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="
+        stylesheet">
+        <link rel="stylesheet" href="../estilo/estilo-predeterminado.css">
+        <link rel="alternate stylesheet" href="../estilo/estilo-alto-contraste-y-grande.css" title="Modo alto contraste y grande">
+        <link rel="alternate stylesheet" href="../estilo/estilo-grande.css" title="Modo grande">
+        <link rel="alternate stylesheet" href="../estilo/estilo-alto-contraste.css" title="Modo alto contraste">
+        <link rel="alternate stylesheet" href="../estilo/estilo-grande-oscuro.css" title="Modo grande y oscuro">
+        <link rel="alternate stylesheet" href="../estilo/estilo-grande.css" title="Modo grande">
+        <link rel="alternate stylesheet" href="../estilo/estilo-oscuro.css" title="Modo oscuro">
+        <link rel="stylesheet" href="../estilo/estilo-impresion.css" media="print">
+        <link rel="icon" type="image/x-icon" href="../img/logo.jpg">
+        
+    </head>
+
+    <body>
+
+        <header>
+
+            <a id="imagenLogo" href="../index.html" aria-label="Inicio Enciclopedia Médica">
+                <img src="../img/logo.jpg" width="100" alt="Logo de la Enciclopedia Médica">
+            </a>
+
+            <h1>Sugerencias</h1>
+
+            <hr>
+
+            <nav aria-label="Ruta de navegación">
+                <a href="../index.html">Inicio</a><span aria-hidden="true"> &gt; </span><span aria-current="page">Sugerencias</span>
+            </nav>
+
+            <hr>
+
+        </header>
+
+        <main>
+
+            <h2>Escribe tu sugerencia para que podamos mejorar el sitio web</h2>
+
+            <p>Los campos con asteriscos son obligatorios (<abbr title="Obligatorio">*</abbr>)</p>
+
+            <form action="respuesta/respuesta.html">
+
+                <section>
+
+                    <h3 id="datos-personales">Datos personales para contacto:</h3>
+
+                    <p>
+                        <label for="nombre">Nombre*:</label>
+                        <input type="text" id="nombre" name="nombre" required autocomplete="given-name">
+                    </p>
+                    <p>
+                        <label for="apellidos">Apellidos*:</label>
+                        <input type="text" id="apellidos" name="apellidos" required autocomplete="family-name">
+                    </p>
+                    <p>
+                        <label for="fecha-nacimiento">Fecha nacimiento*:</label>
+                        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+                    </p>
+                    <p>
+                        <label for="telefono">Teléfono*:</label>
+                        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required aria-describedby="ayuda-telefono" inputmode="numeric">
+                        <small id="ayuda-telefono" class="sr-only">(Debe contener 9 dígitos numéricos)</small>
+                    </p>
+                    <p>
+                        <label for="correo">Correo*:</label>
+                        <input type="email" id="correo" name="correo" required autocomplete="email">
+                    </p>
+
+                </section>
+
+                <section>
+
+                    <h3 id="form-satisfaccion">Formulario de satisfacción:</h3>
+
+                    <fieldset>
+                        <legend>Preguntas adicionales</legend>
+
+                        <p>¿Recomendarías este sitio a otros?</p>
+                        <p>
+                            <label for="recomendarias-si">
+                                <input type="radio" id="recomendarias-si" name="recomendarias" value="si" required> Sí
+                            </label>
+                            <label for="recomendarias-no">
+                                <input type="radio" id="recomendarias-no" name="recomendarias" value="no"> No
+                            </label>
+                        </p>
+
+                        <p>¿Te gustaría volver a visitar el sitio?</p>
+                        <p>
+                            <label for="volver-si">
+                                <input type="radio" id="volver-si" name="volver_visitar" value="si" required> Sí
+                            </label>
+                            <label for="volver-no">
+                                <input type="radio" id="volver-no" name="volver_visitar" value="no"> No
+                            </label>
+                        </p>
+                        
+                        <p>Del 1 al 10, ¿cómo valorarías nuestra página web?</p>
+                        <p>
+                            <label for="valoracion">Valoración:</label>
+                            <input type="range" id="valoracion" name="valoracion" min="1" max="10" value="1" aria-valuemin="1" aria-valuemax="10" aria-valuenow="1">
+                            <output for="valoracion" id="valoracion-output" aria-live="polite">1</output>
+                        </p>
+
+                        <p>¿Qué color prefieres para el diseño de la página web?</p>
+                        <p>
+                            <label for="color">Color:</label>
+                            <input type="color" id="color" name="color" value="#ffffff">
+                        </p>
+
+                    </fieldset>	
+
+                </section>
+
+                <section>
+
+                    <h3 id="desarrolla-sugerencia">Desarrolla tu sugerencia:</h3>
+
+                    <p>
+                        <label for="sugerencia">Sugerencia*:</label>
+                        <textarea id="sugerencia" name="sugerencia" required aria-required="true"></textarea>
+                    </p>
+
+                </section>
+
+                <button type="submit" aria-label="Enviar sugerencia">Enviar</button>
+
+            </form>
+
+        </main>
+
+
+        <footer>
+
+            <ul>
+                <li><a href="sugerencia.html">&uarr; Ir arriba</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+            </ul>
+
+            <p>&copy; 2025 Enciclopedia Médica. Creado por Saül Soriano Tortajada y Gonzalo Rodríguez Gallardo</p>
+        </footer>
+
+    </body>
+
+</html>

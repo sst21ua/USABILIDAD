@@ -1,0 +1,24 @@
+@import url("estilo-predeterminado.css");
+
+/* Tipografía legible */
+p {
+    font-size: 32px;
+    font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    max-width: 80ch; /* límite de 80 caracteres */
+    margin-left: auto; /* centrar en la pantalla */
+    font-size: 32px; /* ya estaba grande */
+    text-align: left;
+}
+
+/* Enlaces visibles */
+a {
+    text-decoration: underline;
+    color: var(--color-principal, #000000);
+}
+
+a:hover, a:focus, a:active { /*esto es para que haya un outline que permita que se notifique mejor el boton*/
+    outline: 2px solid var(--color-principal);
+    outline-offset: 2px;
+}
