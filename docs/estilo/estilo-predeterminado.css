@@ -30,6 +30,11 @@ body {
     background-color: var(--fondo-general); /* Mint Cream | Color del fondo de la página web */
 }
 
+p {
+    max-width: 80ch; /* límite de 80 caracteres */
+
+}
+
 /* HEADER */
 
 header {
@@ -262,7 +267,8 @@ main p {
 
 main form {
     max-width: 500px;
-    margin: 0 auto; /* Aplicamos un margen general (todos los lados) para distinguir cada section */
+    margin-left: 30px;   /* lo pega al borde izquierdo */
+    margin-right: auto;
     padding: 15px; /* Aplicamos el padding para que la información no esté apegada al borde */
     border-radius: 8px; /* Redondeamos los bordes de la sección y la hacemos más visual */
     background-color: var(--color-fondos); /* blanco | Aplicamos el color blanco como fondo de cada sección */
