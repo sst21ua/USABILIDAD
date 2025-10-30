@@ -18,7 +18,7 @@ No se usa para evitar conflictos y posibles sobreescrituras*/
 /* Tipografía legible y tamaño grande */
 body {
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
-    font-size: 32px;        /* del estilo grande */
+    font-size: 32px;         /* tamaño grande */
     line-height: 1.5;
     margin-bottom: 1em;
     text-align: left;
@@ -29,7 +29,6 @@ body {
 
 p {
     max-width: 80ch; /* límite de 80 caracteres */
-
 }
 
 /* Enlaces claramente visibles */
