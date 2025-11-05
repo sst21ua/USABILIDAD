@@ -17,12 +17,15 @@ body {
     line-height: 1.5;
     margin-bottom: 1em;
     text-align: left;
-    max-width: 80ch; /* límite de 80 caracteres */
     margin-left: auto; /* centrar en la pantalla */
     background-color: var(--fondo-general);
     color: var(--texto-principal);
 }
 
+p {
+     max-width: 80ch; /* límite de 80 caracteres */
+
+}
 /* Enlaces claramente visibles */
 a {
     text-decoration: underline;

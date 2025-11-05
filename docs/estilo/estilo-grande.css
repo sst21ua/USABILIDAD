@@ -6,12 +6,15 @@ body {
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
     line-height: 1.5;
     margin-bottom: 1em;
-    max-width: 80ch; /* límite de 80 caracteres */
     margin-left: auto; /* centrar en la pantalla */
     font-size: 32px; /* ya estaba grande */
     text-align: left;
 }
 
+p {
+    max-width: 80ch; /* límite de 80 caracteres */
+
+}
 /* Enlaces visibles */
 a {
     text-decoration: underline;

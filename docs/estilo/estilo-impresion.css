@@ -27,10 +27,12 @@ body {
     line-height: 1.5 !important;
     margin-bottom: 1em !important;
     text-align: left !important;
-    max-width: 80ch; /* límite de 80 caracteres */
     margin-left: auto; /* centrar en la pantalla */
 }
 
+p {
+    max-width: 80ch; /* límite de 80 caracteres */
+}
 * {
     background: transparent !important;
     color: black !important;
