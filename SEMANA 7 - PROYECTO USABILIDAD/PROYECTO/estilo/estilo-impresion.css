@@ -18,7 +18,7 @@ hr {
 }
 
 /* Reset básico para impresión */
-body {
+p {
     font-size: 12pt !important;
     background: white !important;
     color: black !important;
@@ -27,12 +27,10 @@ body {
     line-height: 1.5 !important;
     margin-bottom: 1em !important;
     text-align: left !important;
+    max-width: 80ch; /* límite de 80 caracteres */
     margin-left: auto; /* centrar en la pantalla */
 }
 
-p {
-    max-width: 80ch; /* límite de 80 caracteres */
-}
 * {
     background: transparent !important;
     color: black !important;
@@ -44,12 +42,6 @@ p {
 a {
     color: black !important;
     text-decoration: underline !important;
-}
-
-/* Mostrar URLs de enlaces externos */
-a[href^="http"]:after {
-    content: " (" attr(href) ")";
-    font-size: 10pt;
 }
 
 /* Imágenes */

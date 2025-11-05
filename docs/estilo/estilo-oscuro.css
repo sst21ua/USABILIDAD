@@ -3,7 +3,7 @@
 /* VARIABLES DE COLOR PARA MODO OSCURO */
 :root {
     --color-principal: #008080;      /* Teal - Se mantiene igual */
-    --color-secundario: #e0f7fae0;     /* Azure claro adaptado para oscuro */
+    --color-secundario: #E0D7FAE0;     /* Azure claro adaptado para oscuro */
     --fondo-general: #121212;        /* Fondo oscuro general */
     --texto-principal: #E0E0E0;      /* Texto principal claro */
     --texto-secundario: #B0B0B0;     /* Texto secundario */
@@ -12,29 +12,22 @@
 }
 
 /* Tipografía legible */
-body {
+p {
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
     line-height: 1.5;
     margin-bottom: 1em;
     text-align: left;
-    margin-left: auto; /* centrar en la pantalla */
-    background-color: var(--fondo-general);
-    color: var(--texto-principal);
+    max-width: 80ch; /* límite de 80 caracteres */
+    margin-left:auto; /* centrar en la pantalla */
 }
 
-p {
-     max-width: 80ch; /* límite de 80 caracteres */
-
-}
 /* Enlaces claramente visibles */
 a {
     text-decoration: underline;
     color: var(--color-principal);
 }
 
-a:hover,
-a:focus,
-a:active { /* outline para accesibilidad */
+a:hover, a:focus, a:active { /*esto es para que haya un outline que permita que se notifique mejor el boton*/
     outline: 2px solid var(--color-principal);
     outline-offset: 2px;
 }

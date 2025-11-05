@@ -11,17 +11,15 @@
     --color-fondos: #FFFFFF;        /* Blanco */
 }
 
-body {
+p {
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
     line-height: 1.5;
     margin-bottom: 1em;
+    max-width: 80ch; /* límite de 80 caracteres */
     margin-left: auto; /* centrar en la pantalla */
     text-align: left;
 }
 
-p {
-     max-width: 80ch; /* límite de 80 caracteres */
-}
 /* Enlaces claramente visibles */
 a {
     text-decoration: underline;

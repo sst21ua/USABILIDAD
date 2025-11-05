@@ -30,6 +30,10 @@ body {
     background-color: var(--fondo-general); /* Mint Cream | Color del fondo de la página web */
 }
 
+p {
+    max-width: 80ch; /* límite de 80 caracteres */
+}
+
 /* HEADER */
 
 header {
@@ -261,8 +265,9 @@ main p {
 }
 
 main form {
-
-    margin: 20px; /* Aplicamos un margen general (todos los lados) para distinguir cada section */
+    max-width: 500px;
+    margin-left: 30px;   /* lo pega al borde izquierdo */
+    margin-right: auto;
     padding: 15px; /* Aplicamos el padding para que la información no esté apegada al borde */
     border-radius: 8px; /* Redondeamos los bordes de la sección y la hacemos más visual */
     background-color: var(--color-fondos); /* blanco | Aplicamos el color blanco como fondo de cada sección */
@@ -280,7 +285,15 @@ main  abbr {
     font-weight: bold; /* Aplicamos negrita a las abreviaturas*/
 }
 
+main form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+
 main form input, select, textarea{
+    width: 100%;
     padding: 5px; /* Añadimos un padding para una separación interna del contenido y el borde */
     border-radius: 8px; /* Redondeamos las esquinas */
     border: 2px solid var(--texto-principal); /* Gris oscuro | Aplicamos el borde del mismo color que tenemos y aumentamos el grosor */

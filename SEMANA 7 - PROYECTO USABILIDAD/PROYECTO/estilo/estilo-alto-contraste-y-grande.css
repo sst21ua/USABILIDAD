@@ -14,9 +14,7 @@ No se usa para evitar conflictos y posibles sobreescrituras*/
     --color-fondos: #FFFFFF;         /* Blanco */
 }
 
-/* ------------------------------
-   Tipografía legible y tamaño grande
----------------------------------*/
+/* Tipografía legible y tamaño grande */
 body {
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
     font-size: 32px;         /* tamaño grande */
@@ -25,13 +23,15 @@ body {
     text-align: left;
     background-color: var(--fondo-general);
     color: var(--texto-principal);
-    max-width: 80ch; /* límite de 80 caracteres */
     margin-left: auto; /* centrar en la pantalla */
 }
 
-/* ------------------------------
-   Enlaces claramente visibles
----------------------------------*/
+p {
+    max-width: 80ch; /* límite de 80 caracteres */
+
+}
+
+/* Enlaces claramente visibles */
 a {
     text-decoration: underline;
     color: var(--color-principal);
