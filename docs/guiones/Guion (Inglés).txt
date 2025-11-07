@@ -1,0 +1,33 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.480 --> 00:00:06.080
+The Da Vinci Surgical System is the most advanced robot in the field of surgery.
+
+00:00:06.080 --> 00:00:11.600
+It doesn’t operate on its own: it’s a slave robot, responding to every movement of the surgeon,
+
+00:00:11.600 --> 00:00:18.440
+enhancing precision and eliminating hand tremors. The physician works seated at a console,
+
+00:00:18.440 --> 00:00:24.280
+from which they control the robotic arms and view the inside of the patient in 3D and high definition,
+
+00:00:24.280 --> 00:00:29.320
+as if they were inside the body. Additionally, they can access prior images,
+
+00:00:29.320 --> 00:00:35.760
+biopsies, and even use fluorescence to detect blood vessels and reduce bleeding.
+
+00:00:35.760 --> 00:00:40.840
+Among its advantages: less blood loss, fewer complications, shorter hospital stays,
+
+00:00:40.840 --> 00:00:47.960
+and a much faster recovery. In short, Da Vinci doesn’t replace the surgeon…
+
+00:00:47.960 --> 00:00:54.200
+it empowers them. It’s the best example of how technology can make medicine more precise,
+
+00:00:54.200 --> 00:01:00.280
+safe, and humane. A clear demonstration of how robotics is transforming the way we operate.
