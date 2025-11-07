@@ -1,10 +1,46 @@
-El Sistema Quirúrgico Da Vinci es el robot más avanzado que existe en cirugía.
-No opera solo: es un robot esclavo, que obedece cada movimiento del cirujano, amplificando su precisión y eliminando el temblor de las manos.
+WEBVTT
+Kind: captions
+Language: es
 
-El médico trabaja sentado en una consola, desde donde controla los brazos robóticos y ve el interior del paciente en 3D y alta definición, como si estuviera dentro del cuerpo.
-Además, puede ver imágenes previas, biopsias y hasta usar fluorescencia para detectar vasos sanguíneos y reducir el sangrado.
+00:00:01.480 --> 00:00:06.080
+El Sistema Quirúrgico Da Vinci es el&nbsp;
+robot más avanzado que existe en cirugía.
+&nbsp;
 
+00:00:06.080 --> 00:00:11.600
+No opera solo: es un robot esclavo, que obedece&nbsp;
+cada movimiento del cirujano, amplificando su&nbsp;&nbsp;
 
-Entre sus ventajas: menos pérdida de sangre, menos complicaciones, estancias hospitalarias más cortas y una recuperación mucho más rápida.
+00:00:11.600 --> 00:00:18.440
+precisión y eliminando el temblor de las manos.
+El médico trabaja sentado en una consola,&nbsp;&nbsp;
 
-En resumen, el Da Vinci no reemplaza al cirujano… lo potencia. Es el mejor ejemplo de cómo la tecnología puede hacer la medicina más precisa, segura y humana. Una muestra clara de cómo la robótica está transformando la forma de operar.
+00:00:18.440 --> 00:00:24.280
+desde donde controla los brazos robóticos y ve&nbsp;
+el interior del paciente en 3D y alta definición,&nbsp;&nbsp;
+
+00:00:24.280 --> 00:00:29.320
+como si estuviera dentro del cuerpo.
+Además, puede ver imágenes previas,&nbsp;&nbsp;
+
+00:00:29.320 --> 00:00:35.760
+biopsias y hasta usar fluorescencia para detectar&nbsp;
+vasos sanguíneos y reducir el sangrado.
+&nbsp;
+
+00:00:35.760 --> 00:00:40.840
+Entre sus ventajas: menos pérdida de sangre,&nbsp;
+menos complicaciones, estancias hospitalarias&nbsp;&nbsp;
+
+00:00:40.840 --> 00:00:47.960
+más cortas y una recuperación mucho más rápida.
+En resumen, el Da Vinci no reemplaza al cirujano…&nbsp;&nbsp;
+
+00:00:47.960 --> 00:00:54.200
+lo potencia. Es el mejor ejemplo de cómo la&nbsp;
+tecnología puede hacer la medicina más precisa,&nbsp;&nbsp;
+
+00:00:54.200 --> 00:01:00.280
+segura y humana. Una muestra clara de cómo la&nbsp;
+robótica está transformando la forma&nbsp;de&nbsp;operar.
+
