@@ -326,6 +326,10 @@ main ul#mapaVisual ol li {
     list-style: none; /* Eliminamos la enumeración de la lista */
 }
 
+ #video-amara {
+    width: 560px;
+    height: 315px;
+}
 /* -------------------------------------------------------------------------------------------------------------------------------- */
 
 /* FOOTER */
