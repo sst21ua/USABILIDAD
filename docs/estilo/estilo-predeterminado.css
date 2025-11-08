@@ -222,6 +222,8 @@ main article iframe {
     width: 560px;
     height: 315px;
 }
+
+
 /* MAIN - TABLAS DE LOS ÍNDICES */
 
 main table {
@@ -465,6 +467,11 @@ footer ul li {
     }
 
     main article iframe {
+        width: 40vw;
+        height: auto;
+    }
+
+    main iframe, video, #video-amara {
         width: 40vw;
         height: auto;
     }

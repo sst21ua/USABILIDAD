@@ -468,6 +468,11 @@ footer ul li {
         width: 40vw;
         height: auto;
     }
+
+    main iframe, video, #video-amara {
+        width: 40vw;
+        height: auto;
+    }
     
     /* LISTAS Y GRID - MÓVIL */
     
