@@ -1,0 +1,10 @@
+ The Da Vinci Surgical System is the most advanced robot in surgery.
+It doesn't operate alone: it's a slave robot that follows each move of the surgeon, enhancing precisionand removing hand tremors.
+
+
+The doctor works from a console, controlling robotic arms remotely. They see inside the patient in 3D and HD, as if inside the body. They can also view prior images and biopsies with great clarity. Even fluorescence helps detect vessels and reduce bleeding.
+
+
+Advantages: less blood loss, fewer complications, shorter stays, and a much faster recovery after the procedure.
+
+In short, Da Vinci doesn't replace the surgeon… it empowers them. It's the best example of how technology makes medicine precise, safe and human. Robotics is transforming the way we operate.

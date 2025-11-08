@@ -1,0 +1,30 @@
+AD: Aparece el título “Introducción”.
+AD: En pantalla, dos imágenes de un quirófano moderno con brazos robóticos del sistema Da Vinci listos para operar.
+Narrador: El Sistema Quirúrgico Da Vinci es el robot más avanzado que existe en cirugía.
+Narrador: No opera solo: es un robot esclavo, que obedece cada movimiento del cirujano, amplificando su precisión y eliminando el temblor de las manos.
+
+AD: Aparece el título “Funcionamiento del Sistema: Cirugía Asistida por Robot”.
+AD: En la imagen, varios cirujanos vestidos con batas verdes trabajan junto al robot en un quirófano.
+AD: A la derecha, aparecen cuadros con texto e imágenes:
+– “Control Preciso desde la Consola” con una foto de una estación de control.
+– “Visualización 3D Avanzada” con una imagen de un modelo anatómico.
+– “Acceso a Información Previa” con una persona consultando datos en una pantalla.
+– “Fluorescencia para Identificación de Vasos” con una imagen de vasos sanguíneos resaltados.
+Narrador: El médico trabaja sentado en una consola, desde donde controla los brazos robóticos y ve el interior del paciente en 3D y alta definición, como si estuviera dentro del cuerpo.
+Narrador: Además, puede ver imágenes previas, biopsias y hasta usar fluorescencia para detectar vasos sanguíneos y reducir el sangrado.
+
+AD: Aparece el título “Ventajas de la Cirugía Asistida”.
+AD: En la parte izquierda, se ve un robot con varios brazos quirúrgicos operando sobre un paciente cubierto con una sábana azul.
+AD: A la derecha, aparecen iconos junto a textos:
+– “Control preciso del cirujano”
+– “Visualización en 3D”
+– “Menor pérdida de sangre”
+– “Estancias hospitalarias más cortas”
+– “Recuperación más rápida”
+Narrador: Entre sus ventajas: menos pérdida de sangre, menos complicaciones, estancias hospitalarias más cortas y una recuperación mucho más rápida.
+
+AD: Aparece el título “Conclusión”.
+AD: En la imagen, un robot Da Vinci de color blanco con cuatro brazos y una pantalla central.
+Narrador: En resumen, el Da Vinci no reemplaza al cirujano… lo potencia.
+Narrador: Es el mejor ejemplo de cómo la tecnología puede hacer la medicina más precisa, segura y humana.
+Narrador: Una muestra clara de cómo la robótica está transformando la forma de operar.
