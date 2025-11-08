@@ -1,11 +1,11 @@
-Página Web:
-https://sst21ua.github.io/USABILIDAD/
-
 Vídeo YouTube:
 https://www.youtube.com/watch?v=40mttOlsbao
 
-Página HTML:
-https://sst21ua.github.io/USABILIDAD/videos/videos.html
-
 Vídeo Amara:
 https://amara.org/videos/QIhBuTB0rBWz/info/sistema-quirurgico-da-vinci/
+
+Enciclopedia médica:
+https://sst21ua.github.io/USABILIDAD/
+
+Enciclopedia médica | Vídeos Da Vinci:
+https://sst21ua.github.io/USABILIDAD/videos/videos.html
