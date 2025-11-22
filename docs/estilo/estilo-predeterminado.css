@@ -245,7 +245,8 @@ main table th, td {
 
 main table th[scope="col"] {
     font-weight: bold; /* Aplicamos la negrita para enfatizar */
-    background-color: var(--color-enfasis); /* Verde suave | Aplicamos el color verde en cada característica */
+    background-color: var(--color-principal); /* Verde suave | Aplicamos el color verde en cada característica */
+    color: var(--color-secundario);
 }
 
 main table tr th[scope="row"] {
