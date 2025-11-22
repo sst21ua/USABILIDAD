@@ -379,7 +379,8 @@ footer ul li {
     position: fixed; /* Siempre visible */
     top: 10px;       /* Desde arriba */
     left: 10px;      /* Desde la izquierda */
-    background-color: #66B2B2; /* Verde suave */
+    background-color: var(--color-enfasis); /* Verde suave */
+    border: 2px solid var(--color-secundario);
     color: var(--color-fondos);
     padding: 10px 15px;
     text-decoration: none;
