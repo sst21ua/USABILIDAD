@@ -245,7 +245,8 @@ main table th, td {
 
 main table th[scope="col"] {
     font-weight: bold; /* Aplicamos la negrita para enfatizar */
-    background-color: var(--color-enfasis); /* Verde suave | Aplicamos el color verde en cada característica */
+    background-color: var(--color-principal); /* Verde suave | Aplicamos el color verde en cada característica */
+    color: var(--color-secundario);
 }
 
 main table tr th[scope="row"] {
@@ -379,7 +380,8 @@ footer ul li {
     position: fixed; /* Siempre visible */
     top: 10px;       /* Desde arriba */
     left: 10px;      /* Desde la izquierda */
-    background-color: #66B2B2; /* Verde suave */
+    background-color: var(--color-principal); /* Verde suave */
+    border: 2px solid var(--color-secundario);
     color: var(--color-fondos);
     padding: 10px 15px;
     text-decoration: none;
