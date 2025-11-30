@@ -1,0 +1,43 @@
+@import url("estilo-predeterminado.css");
+/* @import url("estilo-grande.css");
+@import url("estilo-oscuro.css"); 
+No se usa para evitar conflictos y posibles sobreescrituras*/
+
+
+/* Variables de color para modo oscuro */
+:root {
+    --color-principal: #008080;      /* Teal - Se mantiene igual */
+    --color-secundario: #E0D7FAE0;     /* Azure claro adaptado para oscuro */
+    --fondo-general: #121212;        /* Fondo oscuro general */
+    --texto-principal: #E0E0E0;      /* Texto principal claro */
+    --texto-secundario: #B0B0B0;     /* Texto secundario */
+    --color-enfasis: #4ECDC4;        /* Verde suave más vibrante para oscuro */
+    --color-fondos: #1E1E1E;         /* Fondo oscuro para secciones */
+}
+/* Tipografía legible y tamaño grande */
+body {
+    font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
+    font-size: 32px;         /* tamaño grande */
+    line-height: 1.5;
+    margin-bottom: 1em;
+    text-align: left;
+    background-color: var(--fondo-general);
+    color: var(--texto-principal);
+    margin-left: auto; /* centrar en la pantalla */
+}
+
+p {
+    max-width: 80ch; /* límite de 80 caracteres */
+}
+/* Enlaces claramente visibles */
+a {
+    text-decoration: underline;
+    color: var(--color-principal);
+}
+
+a:hover,
+a:focus,
+a:active { /* outline para accesibilidad */
+    outline: 2px solid var(--color-principal);
+    outline-offset: 2px;
+}

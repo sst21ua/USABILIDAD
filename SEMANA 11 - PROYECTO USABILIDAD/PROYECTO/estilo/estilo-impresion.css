@@ -1,0 +1,57 @@
+@import url("estilo-predeterminado.css");
+
+/* 
+ * Estilo simple para impresión
+ * Solo lo esencial, no se considero esencial el logo
+ */
+
+/* Ocultar elementos no necesarios en impresión */
+header,
+footer,
+nav,
+aside,
+button,
+form,
+.skip-link,
+hr {
+    display: none !important;
+}
+
+/* Reset básico para impresión */
+p {
+    font-size: 12pt !important;
+    background: white !important;
+    color: black !important;
+    margin: 2cm !important;
+    font-family: 'Atkinson Hyperlegible', Arial, sans-serif !important;
+    line-height: 1.5 !important;
+    margin-bottom: 1em !important;
+    text-align: left !important;
+    max-width: 80ch; /* límite de 80 caracteres */
+    margin-left: auto; /* centrar en la pantalla */
+}
+
+* {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* Enlaces visibles */
+a {
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+/* Imágenes */
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* Ocultar imágenes decorativas */
+header img,
+footer img {
+    display: none !important;
+}

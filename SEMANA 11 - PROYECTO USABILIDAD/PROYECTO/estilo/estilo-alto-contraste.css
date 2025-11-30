@@ -1,0 +1,32 @@
+@import url("estilo-predeterminado.css");
+
+/* Modo alto contraste */
+:root {
+    --color-principal: #004D4D;      /* Teal mucho más oscuro */
+    --color-secundario: #FFFFFF;    /* Blanco puro para máximo contraste */
+    --fondo-general: #F0F0F0;       /* Gris muy claro pero no blanco puro */
+    --texto-principal: #000000;     /* Negro puro para texto principal */
+    --texto-secundario: #222222;    /* Gris muy oscuro (casi negro) */
+    --color-enfasis: #002626;       /* Verde muy oscuro */
+    --color-fondos: #FFFFFF;        /* Blanco */
+}
+
+p {
+    font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    max-width: 80ch; /* límite de 80 caracteres */
+    margin-left: auto; /* centrar en la pantalla */
+    text-align: left;
+}
+
+/* Enlaces claramente visibles */
+a {
+    text-decoration: underline;
+    color: var(--color-principal);
+}
+
+a:hover, a:focus, a:active { /*esto es para que haya un outline que permita que se notifique mejor el boton*/
+    outline: 2px solid var(--color-principal);
+    outline-offset: 2px;
+}
